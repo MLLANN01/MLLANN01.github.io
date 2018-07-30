@@ -14,19 +14,22 @@
 .right1 {
     color: coral;
     text-align: Right;
-    Right: 60px;
+    top: 10px;
+    right: 60px;
 }
 
 .right2 {
     color: coral;
     text-align: Right;
-    Right: 40px;
+    top: 10px;
+    right: 40px;
 }
 
 .right3 {
     color: coral;
     text-align: Right;
-    Right: 20px;
+    top: 10px;
+    right: 20px;
 }
 
 .center {
