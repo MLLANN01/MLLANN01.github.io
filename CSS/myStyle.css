@@ -13,18 +13,21 @@
 
 div.a {
     color: coral;
+    top: 10px;
     position: absolute;
     right: 60px;
 }
 
 div.b {
     color: coral;
+    top: 10px;
     position: absolute;
     right: 80px;
 }
 
 div.c {
     color: coral;
+    top: 10px;
     position: absolute;
     right: 100px;
 }
