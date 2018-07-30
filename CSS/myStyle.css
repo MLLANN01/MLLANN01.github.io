@@ -11,22 +11,22 @@
     z-index: 1;
   }
 
-p1 {
+div.a {
     color: coral;
-    padding-top: 10px;
-    padding-right: 60px;
+    position: absolute;
+    right: 60px;
 }
 
-p2 {
+div.b {
     color: coral;
-    padding-top: 10px;
-    padding-right: 40px;
+    position: absolute;
+    right: 40px;
 }
 
-p3 {
+div.c {
     color: coral;
-    padding-top: 10px;
-    padding-right: 20px;
+    position: absolute;
+    right: 20px;
 }
 
 .center {
