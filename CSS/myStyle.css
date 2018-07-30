@@ -20,6 +20,11 @@ h2 {
     color: orange;
 }
 
+div {
+    width: 80px;
+    height: 100px;
+    position: relative;
+  }
 .infront {
     background-color: red;
     top: 10px;
