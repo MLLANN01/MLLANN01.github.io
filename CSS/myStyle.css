@@ -13,6 +13,21 @@ body {
     text-align: center;
 }
 
+.right1 {
+    text-align: Right;
+    Right: 60px;
+}
+
+.right2 {
+    text-align: Right;
+    Right: 40px;
+}
+
+.right3 {
+    text-align: Right;
+    Right: 20px;
+}
+
 #intro {
     font-size: 1.3em;
 }
