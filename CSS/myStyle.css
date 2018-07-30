@@ -5,6 +5,7 @@ body {
 }
 .center {
     color: coral;
+    top: 25px;
     text-align: center;
 }
 
