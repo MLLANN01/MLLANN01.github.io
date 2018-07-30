@@ -32,7 +32,7 @@ div {
     z-index: 2;
   }
   .behind {
-    background-color: gold;
+    background-color: black;
     top: -60px;
     left: 35px;
     z-index: 1;
