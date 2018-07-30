@@ -5,7 +5,14 @@ body {
 }
 h1 {
     color: coral;
+    align: center;
 }
+
+h2 {
+    color: coral;
+    align: center;
+}
+
 #intro {
     font-size: 1.3em;
 }
