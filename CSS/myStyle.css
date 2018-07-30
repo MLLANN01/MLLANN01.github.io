@@ -12,3 +12,16 @@ h1 {
 .colorful {
     color: orange;
 }
+
+.infront {
+    background-color: red;
+    top: 10px;
+    left: 80px;
+    z-index: 2;
+  }
+  .behind {
+    background-color: gold;
+    top: -60px;
+    left: 35px;
+    z-index: 1;
+  }
