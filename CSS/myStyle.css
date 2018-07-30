@@ -1,8 +1,34 @@
-body {
-    background-color: darkslategrey;
-    color: azure;
-    font-size: 1.1em;
+.infront {
+    background-color: red;
+    top: 10px;
+    left: 80px;
+    z-index: 2;
+  }
+  .behind {
+    background-color: coral;
+    top: -60px;
+    left: 35px;
+    z-index: 1;
+  }
+
+.right1 {
+    color: coral;
+    text-align: Right;
+    Right: 60px;
 }
+
+.right2 {
+    color: coral;
+    text-align: Right;
+    Right: 40px;
+}
+
+.right3 {
+    color: coral;
+    text-align: Right;
+    Right: 20px;
+}
+
 .center {
     color: coral;
     top: 25px;
@@ -11,21 +37,6 @@ body {
 
 .img1 {
     text-align: center;
-}
-
-.right1 {
-    text-align: Right;
-    Right: 60px;
-}
-
-.right2 {
-    text-align: Right;
-    Right: 40px;
-}
-
-.right3 {
-    text-align: Right;
-    Right: 20px;
 }
 
 #intro {
@@ -41,15 +52,8 @@ div {
     position: relative;
   }
 
-.infront {
-    background-color: red;
-    top: 10px;
-    left: 80px;
-    z-index: 2;
-  }
-  .behind {
-    background-color: coral;
-    top: -60px;
-    left: 35px;
-    z-index: 1;
-  }
+body {
+    background-color: darkslategrey;
+    color: azure;
+    font-size: 1.1em;
+}
