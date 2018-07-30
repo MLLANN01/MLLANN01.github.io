@@ -16,7 +16,7 @@ div.a {
     color: coral;
     top: 10px;
     position: fixed;
-    right: 60px;
+    right: 100px;
 }
 
 div.b {
@@ -30,7 +30,7 @@ div.c {
     color: coral;
     top: 10px;
     position: fixed;
-    right: 100px;
+    right: 60px;
 }
 
 .center {
