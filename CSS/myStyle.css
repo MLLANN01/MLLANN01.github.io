@@ -33,16 +33,16 @@ div.c {
     right: 60px;
 }
 
-div.img1 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-
 .center {
     color: coral;
     top: 25px;
     text-align: center;
+}
+
+div.img1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 #intro {
