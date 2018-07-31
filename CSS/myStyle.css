@@ -50,14 +50,26 @@ img.bg {
     }
   }
 
-  .navbar-brand
+.navbar-custom {
+  background-color: black;
+}
+
+.navbar-brand
 {
-    position: fixed;
+    position: absolute;
     width: 100%;
     left: 0;
     text-align: center;
-    margin:0 auto;
+    margin: 0;
 }
 .navbar-toggle {
     z-index:3;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: red;
+}
+
+.navbar-custom .navbar-toggle {
+  background-color: white;
 }
