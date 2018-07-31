@@ -43,19 +43,6 @@ div.img1 {
     border-radius: 50%;
 }
 
-#intro {
-    font-size: 1.3em;
-}
-.colorful {
-    color: orange;
-}
-
-div {
-    width: 80px;
-    height: 100px;
-    position: relative;
-  }
-
 body {
     background-color: darkslategrey;
     color: azure;
