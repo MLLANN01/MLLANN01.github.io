@@ -1,42 +1,12 @@
-
-.infront {
-    background-color: red;
-    top: 10px;
-    left: 80px;
-    z-index: 2;
-  }
-  .behind {
-    background-color: coral;
-    top: -60px;
-    left: 35px;
-    z-index: 1;
-  }
-
-div.a {
-    color: coral;
-    top: 10px;
-    right: 100px;
-    position: sticky;
-}
-
-div.b {
-    color: coral;
-    top: 10px;
-    right: 80px;
-    position: sticky;
-}
-
-div.c {
-    color: coral;
-    top: 10px;
-    right: 60px;
-    position: sticky;
-}
-
 .center {
-    color: coral;
-    top: 25px;
-    text-align: center;
+    color: whitesmoke;
+    height: 10em;
+    position: absolute;
+    margin: 0;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 #img1 {
@@ -44,15 +14,38 @@ div.c {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-color: ghostwhite;
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
+    position: absolute;
+    margin: 0;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
-body {
-    background-color: darkslategrey;
-    color: azure;
-    font-size: 1.1em;
-}
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+  }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
