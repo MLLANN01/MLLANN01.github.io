@@ -13,24 +13,24 @@
   }
 
 div.a {
-    color: red;
+    color: coral;
     top: 10px;
-    position: sticky;
     right: 100px;
+    position: sticky;
 }
 
 div.b {
     color: coral;
     top: 10px;
-    position: sticky;
     right: 80px;
+    position: sticky;
 }
 
 div.c {
     color: coral;
     top: 10px;
-    position: sticky;
     right: 60px;
+    position: sticky;
 }
 
 .center {
@@ -43,6 +43,8 @@ div.img1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 300px;
+    width: 200px;
 }
 
 #intro {
