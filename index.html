@@ -2,69 +2,43 @@
 <html>
   
   <head>
+   <!-- <link rel="stylesheet" type="text/css" href="/Users/mllann01/Documents/Marshall's Coding Projects/MLLANN01.github.io/CSS/myStyle.css" media="screen" /> -->
     <link rel="stylesheet" type="text/css" href="MLLANN01.github.io/CSS/myStyle.css" media="screen" />
-    <img class="bg" src="MLLANN01.github.io/Pictures/file.jpeg" alt="background">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>  
-  
-  <header>
-    <div class="container">
-      <header class="blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-          <div class="col-4 pt-1">
-            <a class="text-muted" href="#">Subscribe</a>
-          </div>
-          <div class="col-4 text-center">
-            <a class="blog-header-logo text-dark" href="#">Large</a>
-          </div>
-          <div class="col-4 d-flex justify-content-end align-items-center">
-            <a class="text-muted" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
-            </a>
-            <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
-          </div>
-        </div>
-      </header>
-  </header>
 
   <body>
 
+    <!-- <img class="bg" src="/Users/mllann01/Documents/Marshall's Coding Projects/MLLANN01.github.io/Pictures/file.jpeg " alt="background"> -->
     <img class="bg" src="MLLANN01.github.io/Pictures/file.jpeg " alt="background">
 
+    <!-- <img id="img1" src="/Users/mllann01/Documents/Marshall's Coding Projects/MLLANN01.github.io/Pictures/file-2.jpeg " alt="picture"> -->
     <img id="img1" src="MLLANN01.github.io/Pictures/file-2.jpeg " alt="picture">
 
-    <h1 class="center">Marshall Lanning</h1>
-
-    <ul class="nav nav-pills">
-      <li class="active"><a href="#">About Me</a></li>
-      <li><a href="#">My Music</a></li>
-      <li><a href="#">My Code</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-
-    <div class="tab-content" style="position: absolute;">
-      <div id="About Me" class="tab-pane fade in active">
-        <h3>About Me</h3>
-        <p>My name is Marshall Lanning</p>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>    
       </div>
-      <div id="My Music" class="tab-pane fade">
-        <h3>My Music</h3>
-        <p>Here is my music.</p>
+      <a class="navbar-brand" href="#">Marshall Lanning</a>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#about">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">My Music</a></li>
+          <li><a href="#contact">My Code</a></li>
+        </ul>
       </div>
-      <div id="My Code" class="tab-pane fade">
-        <h3>My Code</h3>
-        <p>Here is my code.</p>
-      </div>
-      <div id="Contact" class="tab-pane fade">
-        <h3>Contact</h3>
-        <p>Phone: 502-767-6013 email: Marshall.Lanning.37@gmail.com</p>
-      </div>
-    </div>
-  </div>
+    </nav>
 
   </body>
 

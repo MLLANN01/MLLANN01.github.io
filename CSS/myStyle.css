@@ -14,14 +14,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     border-color: ghostwhite;
-    border-width: 5px;
+    border-width: 15px;
     border-style: solid;
     position: absolute;
     margin: 0;
-    top: 40%;
+    top: 52%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -49,3 +49,15 @@ img.bg {
       margin-left: -512px;   /* 50% */
     }
   }
+
+  .navbar-brand
+{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
