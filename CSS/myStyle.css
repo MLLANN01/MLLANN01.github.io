@@ -73,3 +73,58 @@ img.bg {
 .navbar-custom .navbar-toggle {
   background-color: white;
 }
+
+.fb {
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  margin: 0;
+  top: 30%;
+  left: 34%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.fb:hover {
+  opacity: 0.7;
+}
+
+.sc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  margin: 0;
+  top: 16.8%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.sc:hover {
+  opacity: 0.7;
+}
+
+.gh {
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  margin: 0;
+  top: 30%;
+  left: 66%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+}
+
+.gh:hover {
+  opacity: 0.7;
+}
