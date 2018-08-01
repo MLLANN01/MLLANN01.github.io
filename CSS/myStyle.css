@@ -4,7 +4,7 @@
   min-width: 1024px;
     
   /* Set up proportionate scaling */
-  width: 100%;
+  width: auto;
   height: auto;
     
   /* Set up positioning */
@@ -40,7 +40,7 @@
   background-color: white;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+@media screen and (max-width: 1024px){ /* Specific to this particular image */
   .bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
@@ -59,7 +59,7 @@
   border-style: solid;
   position: absolute;
   margin: 0;
-  top: 52%;
+  top: -30%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -75,8 +75,8 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: 30%;
-  left: 34%;
+  top: -163%;
+  left: 15%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -96,7 +96,7 @@
   margin-right: auto;
   position: absolute;
   margin: 0;
-  top: 16.8%;
+  top: -178%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -119,8 +119,8 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: 30%;
-  left: 66%;
+  top: -163%;
+  left: 85%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -143,7 +143,7 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: 83%;
+  top: -82%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -166,8 +166,8 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: 50%;
-  left: 30%;
+  top: -97%;
+  left: 15%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -189,8 +189,8 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: 50%;
-  left: 70%;
+  top: -97%;
+  left: 85%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -212,8 +212,8 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: 70%;
-  left: 66%;
+  top: -130%;
+  left: 98%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -235,8 +235,8 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: 70%;
-  left: 34%;
+  top: -130%;
+  left: 2%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   z-index: 2;
