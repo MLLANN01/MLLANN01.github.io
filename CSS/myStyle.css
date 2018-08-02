@@ -18,10 +18,7 @@
 .navbar-custom {
   background-color: black;
   z-index: 3;
-  margin: 0px;
 }
-
-
 
 .navbar-brand
 {
@@ -31,6 +28,7 @@
   text-align: center;
   margin: 0;
 }
+
 .navbar-toggle {
   z-index:3;
 }
@@ -48,21 +46,34 @@
     left: 50%;
     margin-left: -512px;   /* 50% */
   }
+
+}
+
+.grow { 
+  transition: all .1s ease-in-out; 
+}
+
+.grow:hover { 
+  transform: scale(1.5); 
+}
+
+.tooltip-inner {
+  max-width: 300px;
+  /* If max-width does not work, try using width instead */
+  width: 300px; 
 }
 
 .img1 {
   border-radius: 50%;
+  margin: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: 500px;
+  max-width: 100%;
+  height: auto;
   border-color: white;
   border-width: 15px;
   border-style: solid;
-  position: absolute;
-  margin: 0;
-  top: -30%;
+  position: relative;
+  top: 75%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -78,18 +89,12 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: -163%;
-  left: 15%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  top: -65%;
+  left: 10%;
   z-index: 2;
   border-color: black;
   border-width: 1px;
   border-style: solid;
-}
-
-.fb:hover {
-  opacity: 0.7;
 }
 
 .sc {
@@ -99,18 +104,12 @@
   margin-right: auto;
   position: absolute;
   margin: 0;
-  top: -178%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  top: -80%;
+  left: 44%;
   z-index: 2;
   border-color: black;
   border-width: 1px;
   border-style: solid;
-}
-
-.sc:hover {
-  opacity: 0.7;
 }
 
 .gh {
@@ -122,19 +121,13 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: -163%;
-  left: 85%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  top: -65%;
+  left: 78%;
   z-index: 2;
   background-color: white;
   border-color: black;
   border-width: 1px;
   border-style: solid;
-}
-
-.gh:hover {
-  opacity: 0.7;
 }
 
 .ig {
@@ -146,18 +139,12 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: -82%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  top: 17%;
+  left: 44%;
   z-index: 2;
   border-color: black;
   border-width: 1px;
   border-style: solid;
-}
-
-.ig:hover {
-  opacity: 0.7;
 }
 
 .li {
@@ -169,18 +156,12 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: -97%;
-  left: 15%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  top: 3%;
+  left: 10%;
   z-index: 2;
   border-color: black;
   border-width: 1px;
   border-style: solid;
-}
-
-.li:hover {
-  opacity: 0.7;
 }
 
 .xb {
@@ -192,18 +173,12 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: -97%;
-  left: 85%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  top: 3%;
+  left: 78%;
   z-index: 2;
   border-color: black;
   border-width: 1px;
   border-style: solid;
-}
-
-.xb:hover {
-  opacity: 0.7;
 }
 
 .az {
@@ -215,18 +190,12 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: -130%;
-  left: 98%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  top: -30%;
+  left: 92%;
   z-index: 2;
   border-color: black;
   border-width: 1px;
   border-style: solid;
-}
-
-.az:hover {
-  opacity: 0.7;
 }
 
 .gc {
@@ -238,18 +207,12 @@
   height: 64px;
   position: absolute;
   margin: 0;
-  top: -130%;
-  left: 2%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  top: -30%;
+  left: -4%;
   z-index: 2;
   border-color: black;
   border-width: 1px;
   border-style: solid;
-}
-
-.gc:hover {
-  opacity: 0.7;
 }
 
 .center {
