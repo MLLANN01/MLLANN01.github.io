@@ -15,6 +15,14 @@ p {
   left: 43%;
 }
 
+h1 {
+	text-align: center;
+}
+
+body {
+	font: 400 15px/1.8 "Lato", sans-serif;
+}
+
 .bg {
   /* Set rules to fill background */
   min-height: 100%;
@@ -90,14 +98,14 @@ p {
   max-width: 100%;
   height: auto;
   border-color: white;
-  border-width: 15px;
+  border-width: 2px;
   border-style: solid;
   position: relative;
   top: 75%;
   left: 50%;
-  margin-right: -50%;
+  margin-right: 0%;
   transform: translate(-50%, -50%);
-  z-index: 1;
+  z-index: 0;
 }
 
 .fb {
@@ -244,5 +252,19 @@ p {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+}
+
+.contact {
+    background-color: #29292a;
+    color: #fff;
+    font-size: 16px;
+    padding: 2em 0 3em;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+div {
+	display: block;
 }
 
