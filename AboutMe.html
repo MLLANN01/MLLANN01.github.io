@@ -2,8 +2,8 @@
 <html>
   
   <head>
-    <!-- <link rel="stylesheet" type="text/css" href="/Users/mllann01/Documents/Marshall's Coding Projects/MLLANN01.github.io/CSS/myStyle.css" media="screen" /> -->
-    <link rel="stylesheet" type="text/css" href="MLLANN01.github.io/CSS/myStyle.css" media="screen" /> 
+    <!-- <link rel="stylesheet" type="text/css" href="../CSS/aboutMeStyle.css" media="screen" /> -->
+    <link rel="stylesheet" type="text/css" href="MLLANN01.github.io/CSS/myStyle.css" media="screen" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,6 +15,31 @@
             $('[data-toggle="tooltip"]').tooltip(); 
         });
     </script>
+    <style>
+	    .bgimg-1 {
+		  background-image: url("../Pictures/file-3.jpg");
+		    /* Full height */
+		  min-height: 100%; 
+		
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  position: relative;
+		}
+		
+		.bgimg-2 {
+		  background-image: url("../Pictures/file-4.jpg");
+		  min-height: 400px;
+		}
+		
+		.bgimg-3 {
+		  background-image: url("../Pictures/file.jpg");
+		  min-height: 400px;
+		}
+    
+    </style>
   </head>  
   
   <header>
@@ -33,9 +58,6 @@
 
         <ul class="nav navbar-nav navbar-right">
             <li><a href="AboutMe.html">About Me</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-            <li><a href="MyMusic.html">My Music</a></li>
-            <li><a href="MyCode.html">My Code</a></li>
         </ul>
       </div>
     </nav>
@@ -43,17 +65,122 @@
 
   <body>
 
-    <div>
-      <!-- Background Image -->
-      <!-- <img class="bg img-responsive" src="/Users/mllann01/Documents/Marshall's Coding Projects/MLLANN01.github.io/Pictures/file-3.JPG" alt="background"> -->
-      <img class="bg img-responsive" src="MLLANN01.github.io/Pictures/file-3.JPG " alt="background"> 
-    </div>
+  <div class="bgimg-1"></div>
+  	<div class="caption">
+  		<span class="a" style="margin-bottom:-3px; background-position: center;">ABOUT ME</span>
 
-    <div class="box">
-      <!-- Text -->
-      <p>My name is Marshall Lanning</p>
-    </div>
-
+		<div style="color: white; background-color:black; padding:30px 30px; text-align: justify; width: 70%; margin-left: 15%;">
+	  		<p style="text-align: center; font-size: 12px;">
+		  		Hello, my name is Marshall Lanning and I am from Louisville, Kentucky. I graduated from the University of Louisville - J.B. Speed School of Engineering in the Fall of 2018
+		  		with a degree in Computer Engineering and Computer Science. I am currently working on my masters degree in the same field expected in the Fall of 2019. I began working in application development for UPS in the January of 2017.
+		  		As an Application Developer at UPS I worked primarily in the Dev-Ops realm of I.T. I used Java to write messaging routes in a JBoss Fuse SMX environment and utilized web services, AMQ, IBM MQ, Camel, and Spring to do so. I 
+		  		am also currently working on obtaining skills that will help me with free lance work such as web development, mobile application 
+		  		development, and (internet of things) I.O.T designs. I will link some of web pages below as well as my GIT repository. Aside from my studies and my career I am a musician. 
+		  		I play guitar, piano, bass, drums, and have been in and out of bands for a little over 10 years. I record at home and have experience mixing and mastering using Logic, Pro-tools, and Ableton-Live.   
+  	  		</p>
+ 	  	</div>
+  	  
+  	  <div style="margin-top:-20px; background-position: center;">
+  	  	<span class="a">Technical Skills</span>
+  	  </div>
+  	  
+  	  <div class="a">
+  	  	<p style="font-size: 12px;">Programming/Development: </p>
+	  	<ul>
+	  		<li>Java</li>
+	  	  	<li>C/C++</li>
+	  		<li>Objective-c</li>
+	  	  	<li>Assembly</li>
+	  	  	<li>C#</li>
+	  	  	<li>Python</li>
+	  	  	<li>Swift</li>
+	  	  	<li>SQL</li>
+	  	  	<li>HTML/CSS</li>
+	  	  	<li>Javascript</li>
+  	    </ul>
+  	  </div>
+ 		
+  	  <div class="b">
+  	  	<p style="font-size: 12px;">Software/Development Tools: </p>
+	  	<ul>
+	  		<li>Eclipse</li>
+	  	  	<li>Visual Studio/Visual Studio Code</li>
+	  		<li>Super Putty</li>
+	  	  	<li>WIN SCP</li>
+	  	  	<li>Azure</li>
+	  	  	<li>GIT</li>
+	  	  	<li>Soap UI</li>
+	  		<li>XML Spy</li>
+	  	  	<li>Notepad++</li>
+	  	  	<li>MySQL</li>
+	  	  	<li>Android Studio</li>
+	  	  	<li>X-Code</li>
+  	    </ul>
+  	  </div>
+ 		
+  	  <div class="c">
+  	  	<p style="font-size: 12px;">Systems: </p>
+	  	<ul >
+	  	  	<li>Unix</li>
+	  		<li>Linux</li>
+			<li>Ubuntu</li>
+	  		<li>Kali</li>
+	  	  	<li>Rasbian</li>
+	  	  	<li>Macintosh OS X</li>
+	  	  	<li>Windows</li>
+	  	  	<li>JBoss-Fuse</li>
+	  		<li>Apache Tomcat</li>
+  	    </ul>
+  	  </div>   	  
+  	  
+  	  <div style="margin-top: -10px;">
+  	   <span class="b" style="background-position: center;">EDUCATION</span>
+  	  </div>
+  	  
+   	  <div style="color: black; background-color:white; padding:30px 30px; width: 40%; margin-left: 30%;">
+	  	<p style="text-align: center; font-size: 14px;">
+			The University of Louisville - <br>
+			Bachelors Degree in Computer Engineering and Computer Science - Fall 2018 <br>
+			Masters Degree in Computer Engineering and Computer Science - Expected Fall 2019 <br>
+			Masters Degree in Business Administration - Expected Fall 2021
+ 		</p>
+	  </div>	
+	  
+ 	  <div class="bgimg-1" style="margin-top: -150px; z-index: -1;"></div>
+ 	  
+	 <div style="margin-top: -860px;">
+  	   <span class="b" style="background-position: center;">PROJECTS</span>
+  	  </div>
+  	  
+  	   <div class="d">
+  	  	<p style="font-size: 15px; text-align: center;"><a href="https://mypantrycecs550.azurewebsites.net">MyPantry</a><br></p>
+  	  </div>
+ 		
+  	  <div class="e">
+  	  	<p style="font-size: 15px; text-align: center;"><a href="https://marshalllanning.com/">Resume Site</a><br></p>
+  	  </div>
+ 		
+  	  <div class="f">
+  	  	<p style="font-size: 15px; text-align: center;"><a href="https://github.com/MLLANN01">My GIT Hub</a></p>
+  	  </div>   	  
+	  
+	  <div>
+ 	  	<span class="b" style="margin-bottom:-3px; background-position: center;">CONTACT INFORMATION</span>
+  	  </div>
+	  
+	  <div style="font-size: 12px; color: black; background-color:white; padding:30px 30px; width: 20%; margin-left: 40%;">
+	  	<ul>
+	  	  	<li>EMAIL: Marshall.Lanning.37@gmail.com</li>
+	  		<li>Cell: 502-767-6013</li>
+			<li>Instagram: marshalllanning</li>
+  	    </ul>	
+	  </div>  
+ 	   
+	</div>
+ 
+ 
+ 
+	
   </body>
 
 </html>
