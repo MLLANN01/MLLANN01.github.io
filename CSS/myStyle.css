@@ -41,7 +41,7 @@ body {
 }
 
 .navbar {
-  min-width: 550px;
+  width: 100%;
 }
 
 .navbar-custom {
